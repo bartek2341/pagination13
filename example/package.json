@@ -1,0 +1,25 @@
+{
+  "name": "next-pagination-example",
+  "homepage": "https://etchteam.github.io/next-pagination",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@zeit/next-source-maps": "0.0.4-canary.1",
+    "next": "^13.5.4",
+    "@etchteam/next-pagination": "file:..",
+    "node-sass": "9.0.0",
+    "react": "file:../node_modules/react",
+    "react-dom": "file:../node_modules/react-dom"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export -o build",
+    "start": "next start"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
